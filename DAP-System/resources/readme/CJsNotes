@@ -25,6 +25,7 @@ Actually, the entity wasn't needed at all.  Probably because of the composite ke
 Delete buttons are working, but they submit to a subpath (/submitdelete) which then no longer has a post method for the addRegionDictionary form. 
 Next: need to figure out how to have multiple post methods on a page, but have them return to the same page. 
 
+
 -------------------------------------------------------------
 
 ?? The methods addRegionDictionary() and addEntity(), for example, don't throw any exception.  How are we handling data access exceptions?  Should we use the message library approach from hibernate (or is it spring?)?
