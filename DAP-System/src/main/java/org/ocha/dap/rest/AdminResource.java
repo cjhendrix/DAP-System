@@ -347,7 +347,6 @@ public class AdminResource {
 		URI newURI = null;
 
 		newURI = new URI("/admin/dictionaries/regions/");
-
 		return Response.seeOther(newURI).build();
 
 	}
