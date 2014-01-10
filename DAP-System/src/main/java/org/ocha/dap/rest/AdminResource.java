@@ -391,7 +391,6 @@ public class AdminResource {
 		final IndicatorTypeDictionary indicatorTypeDictionary = new IndicatorTypeDictionary(unnormalizedName, importer);
 
 		curatedDataService.deleteIndicatorTypeDictionary(indicatorTypeDictionary);
-
 		final URI newURI = uriInfo.getBaseUriBuilder().path("/admin/dictionaries/indicatorTypes/").build();
 		return Response.seeOther(newURI).build();
 
