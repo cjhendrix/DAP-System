@@ -77,6 +77,7 @@ public class APIResource {
 	/**
 	 * The actual data is fetched in a separate call
 	 * 
+	 * 
 	 * @see #getYearlyDataForSourceAndIndicatorType
 	 */
 	@GET
